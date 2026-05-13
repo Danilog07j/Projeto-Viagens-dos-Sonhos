@@ -187,9 +187,13 @@ header {
 
 .btn-outline,
 .btn-fill {
-  padding: 10px 22px;
+  padding: 12px 22px;
+
   border-radius: 999px;
-  font-weight: bold;
+
+  font-family: var(--font-main);
+  font-weight: 700;
+
   cursor: pointer;
   transition: 0.2s ease;
 }
@@ -200,10 +204,19 @@ header {
   color: white;
 }
 
+.btn-outline:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.03);
+}
+
 .btn-fill {
   background: white;
   border: none;
-  color: #19647e;
+  color: var(--azul-banana);
+}
+
+.btn-fill:hover {
+  transform: scale(1.03);
 }
 
 .container {
