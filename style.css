@@ -88,6 +88,10 @@ body {
   animation-delay: 28s;
 }
 
+a {
+  text-decoration: none;
+}
+
 @keyframes troca {
   0% {
     opacity: 0;
@@ -214,6 +218,10 @@ header {
   color: #fff;
   margin: 0;
   margin-right: 80px;
+}
+
+.logo:hover {
+  transform: scale(1.05);
 }
 
 .lista {
@@ -565,6 +573,7 @@ header {
 .form-input,
 .form-select,
 .form-textarea {
+  max-height: 200px;
   width: 100%;
   padding: 10px 14px;
   border-radius: 8px;
@@ -658,4 +667,8 @@ header {
   .pages {
     flex-wrap: wrap;
   }
+}
+
+footer img:hover {
+  transform: scale(1.05);
 }
