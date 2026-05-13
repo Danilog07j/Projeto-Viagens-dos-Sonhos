@@ -26,6 +26,11 @@ body {
   font-family: var(--font-main);
 }
 
+.capa {
+  position: relative;
+  height: 661px;
+}
+
 .slideshow {
   position: fixed;
   width: 100%;
@@ -113,10 +118,73 @@ header {
   padding: 16px;
 }
 
+.capa-texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  color: white;
+
+  width: 90%;
+
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
+}
+
+.capa-texto span {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 12px;
+
+  opacity: 0;
+  animation: aparecer 1s ease forwards;
+}
+
+.capa-texto h1 {
+  font-family: var(--font-head);
+  font-size: 5rem;
+  margin-bottom: 14px;
+
+  opacity: 0;
+  animation: aparecer 1s ease forwards;
+  animation-delay: 0.4s;
+}
+
+.capa-texto p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  line-height: 1.6;
+
+  opacity: 0;
+  animation: aparecer 1s ease forwards;
+  animation-delay: 0.8s;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .topo-inteiro {
   display: flex;
   justify-content: center;
 }
+
 .topo {
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.55);
   max-width: 1100px;
@@ -204,7 +272,7 @@ header {
 }
 
 .pages-bar {
-  margin-top: 600px;
+  margin-top: 0;
   background: #fff;
   border-bottom: 1px solid #ddd;
   position: sticky;
@@ -445,7 +513,7 @@ header {
   position: absolute;
   bottom: 10px;
   right: 10px;
-  background: #e53935;
+  background: var(--azul-banana);
   color: #fff;
   font-size: 12px;
   font-weight: 700;
@@ -548,6 +616,8 @@ header {
 }
 
 .footer-inner {
+  display: flex;
+  justify-content: center;
   max-width: 1100px;
   margin: 0 auto;
   padding: 40px 32px;
@@ -556,6 +626,16 @@ header {
 @media (max-width: 860px) {
   .form-row {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .capa-texto h1 {
+    font-size: 3rem;
+  }
+
+  .capa-texto p {
+    font-size: 1rem;
   }
 }
 
