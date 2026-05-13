@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grid de Cards</title>
+    <title>Cruzeiros — VDS</title>
     <link rel="stylesheet" href="Danilo.css" />
   </head>
   <body>
@@ -11,7 +11,9 @@
       <div class="topo-inteiro">
         <nav class="topo">
           <div class="nav-left">
-            <h1 class="logo">VDS ✈️</h1>
+            <a href="index.html">
+              <img src="img/VDS-logo.png" width="70px" class="logo" alt="VDS" />
+            </a>
             <ul class="lista">
               <li class="a">Destinos</li>
               <li class="a">Pacotes</li>
@@ -27,98 +29,372 @@
       </div>
     </header>
 
-    <section>
+    <div class="pages-bar">
+      <nav class="pages">
+        <a href="index.html#viagens">Minhas Viagens</a>
+        <a href="index.html#ofertas">Ofertas</a>
+        <a href="index.html#ajuda">Central de Ajuda</a>
+      </nav>
+    </div>
+
+    <main class="main-content">
+      <div class="section-header">
+        <h1 class="page-title">Cruzeiros</h1>
+        <p class="page-sub">
+          Explore o mundo pelo mar com conforto e exclusividade
+        </p>
+      </div>
+
       <div class="grid">
         <div class="Card">
-          <h2>Cruzeiro 1</h2>
-          <img src="" alt="Cruzeiro1" />
-          <div class="textos">
-            <p>Categoria: A</p>
-            <p id="price">R$ 99,90</p>
+          <div
+            class="card-img"
+            style="
+              background-image: url(&quot;https://picsum.photos/seed/cruise1/400/220&quot;);
+            "
+          ></div>
+          <div class="card-body">
+            <p class="card-dest">Mediterrâneo Oriental</p>
+            <p class="card-info">10 noites · Saindo de Barcelona</p>
+            <p class="card-date">12 Jul – 22 Jul 2025</p>
+            <div class="card-footer-row">
+              <p class="card-price">R$ 12.900</p>
+              <a href="#" class="botaoreserva">Reservar</a>
+            </div>
           </div>
-          <a href="#" class="botaoreserva">Reservar</a>
         </div>
 
         <div class="Card">
-          <h2>Cruzeiro 2</h2>
-          <img src="" alt="Cruzeiro2" />
-          <div class="textos">
-            <p>Categoria: B</p>
-            <p id="price">R$ 149,90</p>
+          <div
+            class="card-img"
+            style="
+              background-image: url(&quot;https://picsum.photos/seed/cruise2/400/220&quot;);
+            "
+          ></div>
+          <div class="card-body">
+            <p class="card-dest">Caribe Oriental</p>
+            <p class="card-info">7 noites · Saindo de Miami</p>
+            <p class="card-date">05 Ago – 12 Ago 2025</p>
+            <div class="card-footer-row">
+              <p class="card-price">R$ 8.490</p>
+              <a href="#" class="botaoreserva">Reservar</a>
+            </div>
           </div>
-          <a href="#" class="botaoreserva">Reservar</a>
         </div>
 
         <div class="Card">
-          <h2>Cruzeiro 3</h2>
-          <img src="" alt="Cruzeiro3" />
-          <div class="textos">
-            <p>Categoria: A</p>
-            <p id="price">R$ 79,90</p>
+          <div
+            class="card-img"
+            style="
+              background-image: url(&quot;https://picsum.photos/seed/cruise3/400/220&quot;);
+            "
+          ></div>
+          <div class="card-body">
+            <p class="card-dest">Fiordos Noruegueses</p>
+            <p class="card-info">12 noites · Saindo de Copenhague</p>
+            <p class="card-date">18 Jun – 30 Jun 2025</p>
+            <div class="card-footer-row">
+              <p class="card-price">R$ 18.200</p>
+              <a href="#" class="botaoreserva">Reservar</a>
+            </div>
           </div>
-          <a href="#" class="botaoreserva">Reservar</a>
         </div>
 
         <div class="Card">
-          <h2>Cruzeiro 4</h2>
-          <img src="" alt="Cruzeiro4" />
-          <div class="textos">
-            <p>Categoria: C</p>
-            <p id="price">R$ 199,90</p>
+          <div
+            class="card-img"
+            style="
+              background-image: url(&quot;https://picsum.photos/seed/cruise4/400/220&quot;);
+            "
+          ></div>
+          <div class="card-body">
+            <p class="card-dest">Ilhas Gregas</p>
+            <p class="card-info">8 noites · Saindo de Atenas</p>
+            <p class="card-date">01 Set – 09 Set 2025</p>
+            <div class="card-footer-row">
+              <p class="card-price">R$ 10.750</p>
+              <a href="#" class="botaoreserva">Reservar</a>
+            </div>
           </div>
-          <a href="#" class="botaoreserva">Reservar</a>
         </div>
 
         <div class="Card">
-          <h2>Cruzeiro 5</h2>
-          <img src="" alt="Cruzeiro5" />
-          <div class="textos">
-            <p>Categoria: B</p>
-            <p id="price">R$ 129,90</p>
+          <div
+            class="card-img"
+            style="
+              background-image: url(&quot;https://picsum.photos/seed/cruise5/400/220&quot;);
+            "
+          ></div>
+          <div class="card-body">
+            <p class="card-dest">Alaska Selvagem</p>
+            <p class="card-info">9 noites · Saindo de Seattle</p>
+            <p class="card-date">20 Jul – 29 Jul 2025</p>
+            <div class="card-footer-row">
+              <p class="card-price">R$ 14.300</p>
+              <a href="#" class="botaoreserva">Reservar</a>
+            </div>
           </div>
-          <a href="#" class="botaoreserva">Reservar</a>
         </div>
 
         <div class="Card">
-          <h2>Cruzeiro 6</h2>
-          <img src="" alt="Cruzeiro6" />
-          <div class="textos">
-            <p>Categoria: A</p>
-            <p id="price">R$ 89,90</p>
+          <div
+            class="card-img"
+            style="
+              background-image: url(&quot;https://picsum.photos/seed/cruise6/400/220&quot;);
+            "
+          ></div>
+          <div class="card-body">
+            <p class="card-dest">Dubai & Emirados</p>
+            <p class="card-info">7 noites · Saindo de Dubai</p>
+            <p class="card-date">10 Nov – 17 Nov 2025</p>
+            <div class="card-footer-row">
+              <p class="card-price">R$ 9.800</p>
+              <a href="#" class="botaoreserva">Reservar</a>
+            </div>
           </div>
-          <a href="#" class="botaoreserva">Reservar</a>
         </div>
 
         <div class="Card">
-          <h2>Cruzeiro 7</h2>
-          <img src="" alt="Cruzeiro7" />
-          <div class="textos">
-            <p>Categoria: C</p>
-            <p id="price">R$ 249,90</p>
+          <div
+            class="card-img"
+            style="
+              background-image: url(&quot;https://picsum.photos/seed/cruise7/400/220&quot;);
+            "
+          ></div>
+          <div class="card-body">
+            <p class="card-dest">Sudeste Asiático</p>
+            <p class="card-info">14 noites · Saindo de Cingapura</p>
+            <p class="card-date">03 Out – 17 Out 2025</p>
+            <div class="card-footer-row">
+              <p class="card-price">R$ 21.500</p>
+              <a href="#" class="botaoreserva">Reservar</a>
+            </div>
           </div>
-          <a href="#" class="botaoreserva">Reservar</a>
         </div>
 
         <div class="Card">
-          <h2>Cruzeiro 8</h2>
-          <img src="" alt="Cruzeiro8" />
-          <div class="textos">
-            <p>Categoria: B</p>
-            <p id="price">R$ 109,90</p>
+          <div
+            class="card-img"
+            style="
+              background-image: url(&quot;https://picsum.photos/seed/cruise8/400/220&quot;);
+            "
+          ></div>
+          <div class="card-body">
+            <p class="card-dest">Costa Brasileira</p>
+            <p class="card-info">6 noites · Saindo de Santos</p>
+            <p class="card-date">15 Dez – 21 Dez 2025</p>
+            <div class="card-footer-row">
+              <p class="card-price">R$ 5.990</p>
+              <a href="#" class="botaoreserva">Reservar</a>
+            </div>
           </div>
-          <a href="#" class="botaoreserva">Reservar</a>
         </div>
 
         <div class="Card">
-          <h2>Cruzeiro 9</h2>
-          <img src="" alt="Cruzeiro9" />
-          <div class="textos">
-            <p>Categoria: A</p>
-            <p id="price">R$ 59,90</p>
+          <div
+            class="card-img"
+            style="
+              background-image: url(&quot;https://picsum.photos/seed/cruise9/400/220&quot;);
+            "
+          ></div>
+          <div class="card-body">
+            <p class="card-dest">Transatlântico Europa</p>
+            <p class="card-info">16 noites · Saindo de Lisboa</p>
+            <p class="card-date">08 Abr – 24 Abr 2026</p>
+            <div class="card-footer-row">
+              <p class="card-price">R$ 28.000</p>
+              <a href="#" class="botaoreserva">Reservar</a>
+            </div>
           </div>
-          <a href="#" class="botaoreserva">Reservar</a>
         </div>
       </div>
-    </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="img/VDS-logo.png" width="70px" alt="VDS" />
+          <p class="footer-tagline">
+            Transformando sonhos em passagens desde 2025.
+          </p>
+          <div class="footer-social">
+            <a href="" aria-label="Instagram">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="2" y="2" width="20" height="20" rx="5" />
+                <circle cx="12" cy="12" r="5" />
+                <circle
+                  cx="17.5"
+                  cy="6.5"
+                  r="1"
+                  fill="currentColor"
+                  stroke="none"
+                />
+              </svg>
+            </a>
+            <a href="#" aria-label="Facebook">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                />
+              </svg>
+            </a>
+            <a href="#" aria-label="YouTube">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"
+                />
+                <polygon
+                  points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"
+                  stroke="none"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+            <a href="#" aria-label="WhatsApp">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Destinos</h4>
+          <ul>
+            <li>Europa</li>
+            <li>América do Norte</li>
+            <li>Ásia</li>
+            <li>Caribe</li>
+            <li>Oceania</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Serviços</h4>
+          <ul>
+            <li>Pacotes completos</li>
+            <li>Cruzeiros</li>
+            <li>Disney &amp; Parques</li>
+            <li>Seguro viagem</li>
+            <li>Voos + Hotel</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Empresa</h4>
+          <ul>
+            <li>Sobre a VDS</li>
+            <li>Blog de viagens</li>
+            <li>Trabalhe conosco</li>
+            <li>Política de privacidade</li>
+            <li>Termos de uso</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Contato</h4>
+          <ul class="footer-contact">
+            <li>
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.18 6.18l.98-.98a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"
+                />
+              </svg>
+              (11) 99999-9999
+            </li>
+            <li>
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+              contato@vds.com.br
+            </li>
+            <li>
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+              Seg–Sex, 8h às 20h
+            </li>
+          </ul>
+          <div class="footer-cadastur">
+            <span>CADASTUR</span>
+            <strong>12.345.678/0001-90</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 Viagem dos Sonhos. Todos os direitos reservados.</p>
+        <p>Pagamentos seguros com <strong>SSL</strong> · ABAV · IATA</p>
+      </div>
+    </footer>
   </body>
 </html>
