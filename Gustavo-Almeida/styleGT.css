@@ -154,6 +154,10 @@ header { padding: 16px; }
   margin-right: 80px;
 }
 
+.logo:hover {
+  transform: scale(1.05);
+}
+
 .lista {
   display: flex;
   align-items: center;
@@ -384,6 +388,10 @@ input, select {
     font-weight: bold;
     cursor: pointer;
     transition: 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.02);
 }
 
 .form-row {
