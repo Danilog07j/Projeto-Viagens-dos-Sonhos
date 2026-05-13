@@ -66,6 +66,10 @@ header {
   margin-right: 80px;
 }
 
+.logo:hover {
+  transform: scale(1.05);
+}
+
 .lista {
   display: flex;
   align-items: center;
@@ -107,44 +111,30 @@ header {
   color: white;
 }
 
+.btn-outline:hover {
+  transform: scale(1.03);
+}
+
 .btn-fill {
   background: white;
   border: none;
   color: var(--azul-banana);
 }
 
-.pages-bar {
-  background: #fff;
-  border-bottom: 1px solid #ddd;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+.btn-fill:hover {
+  transform: scale(1.03);
 }
 
-.pages {
-  display: flex;
-  justify-content: center;
+.a-selected {
+  display: inline-block;
+  transition: color 0.2s ease;
+  cursor: pointer;
+  text-decoration: underline 2px;
+  text-underline-offset: 7px;
 }
 
-.pages a {
-  font-family: var(--font-main);
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--azul-banana);
-  text-decoration: none;
-  padding: 16px 28px;
-  display: block;
-  border-bottom: 2px solid transparent;
-  transition:
-    color 0.2s,
-    border-color 0.2s;
-}
-
-.pages a:hover {
-  color: var(--ciano);
-  border-bottom-color: var(--ciano);
+.a-selected:hover {
+  color: #a8d8e8;
 }
 
 .main-content {
@@ -299,172 +289,14 @@ header {
 
 .footer {
   background-color: var(--azul-escuro);
-  color: rgba(255, 255, 255, 0.75);
-  margin-top: 72px;
-  font-family: var(--font-main);
+  margin-top: 0;
 }
 
 .footer-inner {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 60px 32px 40px;
-  display: grid;
-  grid-template-columns: 1.6fr 1fr 1fr 1fr 1.2fr;
-  gap: 40px;
-}
-
-.footer-logo {
-  font-family: var(--font-head);
-  font-size: 26px;
-  color: #fff;
-  letter-spacing: 2px;
-  display: block;
-  margin-bottom: 12px;
-}
-
-.footer-tagline {
-  font-size: 13px;
-  line-height: 1.6;
-  color: rgba(255, 255, 255, 0.55);
-  margin-bottom: 20px;
-}
-
-.footer-social {
   display: flex;
-  gap: 10px;
-}
-
-.footer-social a {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  display: flex;
-  align-items: center;
   justify-content: center;
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-  transition: 0.2s;
-}
-
-.footer-social a:hover {
-  border-color: var(--ciano);
-  color: var(--ciano);
-}
-
-.footer-col-title {
-  font-family: var(--font-alt);
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--gold);
-  margin-bottom: 16px;
-}
-
-.footer-col ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-}
-
-.footer-col ul li {
-  font-size: 13px;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-contact {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  list-style: none;
-}
-
-.footer-contact li {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 13px;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-contact svg {
-  flex-shrink: 0;
-  opacity: 0.7;
-}
-
-.footer-cadastur {
-  margin-top: 20px;
-  padding: 10px 14px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 8px;
-  font-size: 11px;
-}
-
-.footer-cadastur span {
-  display: block;
-  color: var(--gold);
-  letter-spacing: 0.1em;
-  font-weight: 700;
-  margin-bottom: 2px;
-}
-
-.footer-cadastur strong {
-  color: rgba(255, 255, 255, 0.5);
-  font-weight: 400;
-}
-
-.footer-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  max-width: 1100px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 20px 32px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 12px;
-  color: rgba(255, 255, 255, 0.35);
-}
-
-.footer-bottom strong {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-@media (max-width: 860px) {
-  .footer-inner {
-    grid-template-columns: 1fr 1fr;
-  }
-  .footer-brand {
-    grid-column: span 2;
-  }
-  .footer-bottom {
-    flex-direction: column;
-    gap: 6px;
-    text-align: center;
-  }
-  .grid {
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  }
-}
-
-@media (max-width: 600px) {
-  .nav-left {
-    margin-left: 0;
-  }
-  .footer-inner {
-    grid-template-columns: 1fr;
-  }
-  .footer-brand {
-    grid-column: span 1;
-  }
-  .main-content {
-    padding: 36px 16px 60px;
-  }
-  .page-title {
-    font-size: 30px;
-  }
-  .grid {
-    grid-template-columns: 1fr;
-  }
+  padding: 40px 32px;
+  margin-left: 60px;
 }
