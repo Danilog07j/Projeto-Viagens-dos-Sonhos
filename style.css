@@ -1,7 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Arvo:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --branco-fundo: #eee5e5;
+  --gold: #b0901c;
+  --ciano: #28afb0;
+  --azul-banana: #19647e;
+  --azul-escuro: #0d0221;
+
+  --font-head: "Playfair Display", serif;
+  --font-main: "Roboto", sans-serif;
+  --font-alt: "Arvo", serif;
+}
+
 body {
   background-color: #eee5e5;
   margin: 0 auto;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family: var(--font-main);
+
 }
 
 header{
@@ -38,12 +57,12 @@ gap: 100px;
 }
 
 .logo {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: var(--font-head);
   font-size: 26px;
   letter-spacing: 3px;
   color: #ffffff;
   margin: 0;
-  margin-right: 80PX;
+  margin-right: 80px;
 }
 
 .lista {
@@ -74,21 +93,61 @@ gap: 100px;
   gap: 12px;
 }
 
-.btn-outline {
-  border: 1.5px solid #333;
-  background: transparent;
-  padding: 8px 18px;
+.btn-outline,
+.btn-fill {
+  padding: 10px 22px;
   border-radius: 999px;
-  font-size: 14px;
+  font-weight: bold;
   cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
 }
 
 .btn-fill {
-  background: #000000;
-  color: white;
+  background: white;
   border: none;
-  padding: 8px 18px;
-  border-radius: 999px;
-  font-size: 14px;
-  cursor: pointer;
+  color: #19647e;
+}
+
+.container{
+  background-color: #ffffff;
+  height: 30vh;
+  margin-top: 600px;
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    top: 0;
+}
+
+.pages a {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #19647e;
+    text-decoration: none;
+    padding: 16px 28px;
+    border-bottom: 2px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+}
+
+.pages a:hover {
+    transform: scale(1.02);
+
+  border-bottom: 2px solid transparent;
+
+  border-image: linear-gradient(
+    90deg,
+    #19647E 0%,
+    #27A3CC 100%
+  ) 1;
 }
