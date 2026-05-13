@@ -26,8 +26,6 @@ body {
   font-family: var(--font-main);
 }
 
-/* ─── HEADER / NAV (inalterado) ─── */
-
 header {
   padding: 16px;
 }
@@ -115,8 +113,6 @@ header {
   color: var(--azul-banana);
 }
 
-/* ─── PAGES BAR (inalterado) ─── */
-
 .pages-bar {
   background: #fff;
   border-bottom: 1px solid #ddd;
@@ -151,15 +147,12 @@ header {
   border-bottom-color: var(--ciano);
 }
 
-/* ─── CONTEÚDO PRINCIPAL ─── */
-
 .main-content {
   max-width: 1160px;
   margin: 0 auto;
   padding: 56px 32px 80px;
 }
 
-/* Cabeçalho da seção */
 .section-header {
   margin-bottom: 48px;
   position: relative;
@@ -192,15 +185,11 @@ header {
   font-family: var(--font-main);
 }
 
-/* ─── GRID DE CARDS ─── */
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 28px;
 }
-
-/* ─── CARD ─── */
 
 .Card {
   background: #fff;
@@ -219,7 +208,6 @@ header {
   box-shadow: 0 12px 36px rgba(13, 2, 33, 0.14);
 }
 
-/* Imagem do card */
 .card-img {
   height: 200px;
   background-size: cover;
@@ -239,7 +227,6 @@ header {
   );
 }
 
-/* Corpo do card */
 .card-body {
   padding: 20px 22px 22px;
   display: flex;
@@ -271,7 +258,6 @@ header {
   flex: 1;
 }
 
-/* Rodapé do card: preço + botão */
 .card-footer-row {
   display: flex;
   align-items: center;
@@ -285,11 +271,10 @@ header {
   font-family: var(--font-alt);
   font-size: 20px;
   font-weight: 700;
-  color: var(--gold);
+  color: var(--azul-banana);
   letter-spacing: -0.3px;
 }
 
-/* Botão de reserva */
 .botaoreserva {
   display: inline-block;
   padding: 9px 22px;
@@ -311,8 +296,6 @@ header {
   background-color: var(--ciano);
   transform: scale(1.04);
 }
-
-/* ─── FOOTER (inalterado) ─── */
 
 .footer {
   background-color: var(--azul-escuro);
@@ -447,8 +430,6 @@ header {
 .footer-bottom strong {
   color: rgba(255, 255, 255, 0.5);
 }
-
-/* ─── RESPONSIVO ─── */
 
 @media (max-width: 860px) {
   .footer-inner {
