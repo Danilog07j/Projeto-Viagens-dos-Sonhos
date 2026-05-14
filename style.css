@@ -56,66 +56,25 @@ body {
   animation: troca 32s infinite;
 }
 
-.slideshow img:nth-child(1) {
-  animation-delay: 0s;
-}
-
-.slideshow img:nth-child(2) {
-  animation-delay: 4s;
-}
-
-.slideshow img:nth-child(3) {
-  animation-delay: 8s;
-}
-
-.slideshow img:nth-child(4) {
-  animation-delay: 12s;
-}
-
-.slideshow img:nth-child(5) {
-  animation-delay: 16s;
-}
-
-.slideshow img:nth-child(6) {
-  animation-delay: 20s;
-}
-
-.slideshow img:nth-child(7) {
-  animation-delay: 24s;
-}
-
-.slideshow img:nth-child(8) {
-  animation-delay: 28s;
-}
+.slideshow img:nth-child(1) { animation-delay: 0s; }
+.slideshow img:nth-child(2) { animation-delay: 4s; }
+.slideshow img:nth-child(3) { animation-delay: 8s; }
+.slideshow img:nth-child(4) { animation-delay: 12s; }
+.slideshow img:nth-child(5) { animation-delay: 16s; }
+.slideshow img:nth-child(6) { animation-delay: 20s; }
+.slideshow img:nth-child(7) { animation-delay: 24s; }
+.slideshow img:nth-child(8) { animation-delay: 28s; }
 
 a {
   text-decoration: none;
 }
 
 @keyframes troca {
-  0% {
-    opacity: 0;
-    transform: scale(1);
-  }
-
-  5% {
-    opacity: 1;
-  }
-
-  20% {
-    opacity: 1;
-    transform: scale(1.05);
-  }
-
-  25% {
-    opacity: 0;
-    transform: scale(1.08);
-  }
-
-  100% {
-    opacity: 0;
-    transform: scale(1.08);
-  }
+  0%   { opacity: 0; transform: scale(1); }
+  5%   { opacity: 1; }
+  20%  { opacity: 1; transform: scale(1.05); }
+  25%  { opacity: 0; transform: scale(1.08); }
+  100% { opacity: 0; transform: scale(1.08); }
 }
 
 header {
@@ -128,17 +87,13 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   text-align: center;
   color: white;
-
   width: 90%;
-
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
 }
 
@@ -147,7 +102,6 @@ header {
   text-transform: uppercase;
   letter-spacing: 4px;
   margin-bottom: 12px;
-
   opacity: 0;
   animation: aparecer 1s ease forwards;
 }
@@ -156,7 +110,6 @@ header {
   font-family: var(--font-head);
   font-size: 5rem;
   margin-bottom: 14px;
-
   opacity: 0;
   animation: aparecer 1s ease forwards;
   animation-delay: 0.4s;
@@ -166,22 +119,14 @@ header {
   font-size: 1.2rem;
   max-width: 700px;
   line-height: 1.6;
-
   opacity: 0;
   animation: aparecer 1s ease forwards;
   animation-delay: 0.8s;
 }
 
 @keyframes aparecer {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 .topo-inteiro {
@@ -212,11 +157,6 @@ header {
 }
 
 .logo {
-  font-family: var(--font-head);
-  font-size: 26px;
-  letter-spacing: 3px;
-  color: #fff;
-  margin: 0;
   margin-right: 80px;
 }
 
@@ -229,13 +169,10 @@ header {
   align-items: center;
   list-style: none;
   gap: 50px;
-  margin: 0;
-  padding: 0;
   font-size: 14px;
 }
 
 .a {
-  display: inline-block;
   transition: color 0.2s ease;
   cursor: pointer;
 }
@@ -280,7 +217,6 @@ header {
 }
 
 .pages-bar {
-  margin-top: 0;
   background: #fff;
   border-bottom: 1px solid #ddd;
   position: sticky;
@@ -291,8 +227,6 @@ header {
 .pages {
   display: flex;
   justify-content: center;
-  gap: 0;
-  top: 0;
 }
 
 .pages a {
@@ -305,9 +239,7 @@ header {
   color: #19647e;
   text-decoration: none;
   padding: 16px 28px;
-  transition:
-    color 0.3s ease,
-    transform 0.3s ease;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .pages a::after {
@@ -500,11 +432,6 @@ header {
   color: var(--azul-banana);
 }
 
-.trip-btn:hover {
-  background: var(--azul-banana);
-  color: #fff;
-}
-
 .trip-btn.primary,
 .offer-btn {
   background: var(--azul-banana);
@@ -573,7 +500,6 @@ header {
 .form-input,
 .form-select,
 .form-textarea {
-  max-height: 200px;
   width: 100%;
   padding: 10px 14px;
   border-radius: 8px;
@@ -621,7 +547,6 @@ header {
 
 .footer {
   background-color: var(--azul-escuro);
-  margin-top: 0;
 }
 
 .footer-inner {
@@ -632,6 +557,10 @@ header {
   padding: 40px 32px;
 }
 
+footer img:hover {
+  transform: scale(1.05);
+}
+
 @media (max-width: 860px) {
   .form-row {
     grid-template-columns: 1fr;
@@ -639,13 +568,8 @@ header {
 }
 
 @media (max-width: 768px) {
-  .capa-texto h1 {
-    font-size: 3rem;
-  }
-
-  .capa-texto p {
-    font-size: 1rem;
-  }
+  .capa-texto h1 { font-size: 3rem; }
+  .capa-texto p  { font-size: 1rem; }
 }
 
 @media (max-width: 600px) {
@@ -667,8 +591,4 @@ header {
   .pages {
     flex-wrap: wrap;
   }
-}
-
-footer img:hover {
-  transform: scale(1.05);
 }
