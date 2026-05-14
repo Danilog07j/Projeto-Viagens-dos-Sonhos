@@ -64,9 +64,13 @@ header {
   font-family: var(--font-head);
   font-size: 26px;
   letter-spacing: 3px;
-  color: #ffffff;
+  color: #fff;
   margin: 0;
   margin-right: 80px;
+}
+
+.logo:hover {
+  transform: scale(1.05);
 }
 
 .lista {
@@ -375,24 +379,15 @@ tr:nth-child(odd) td {
   background: white;
 }
 
-footer {
-  margin-top: 70px;
-
-  background: var(--azul-escuro);
-
-  text-align: center;
-
-  padding: 28px;
+.footer {
+  background-color: var(--azul-escuro);
+  margin-top: 0;
 }
 
-footer a {
-  color: white;
-
-  text-decoration: none;
-
-  font-size: 0.95rem;
-}
-
-footer a:hover {
-  text-decoration: underline;
+.footer-inner {
+  display: flex;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 32px;
 }
