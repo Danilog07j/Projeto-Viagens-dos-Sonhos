@@ -263,33 +263,53 @@ ul a:visited {
   margin-top: 6px;
 }
 
-.menu-pagina {
+.pages-bar {
+  margin-top: 0;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.pages {
   display: flex;
   justify-content: center;
-  gap: 4px;
-
-  padding: 0 32px;
-
-  background: #f4f4f4;
-
-  border-bottom: 1px solid #d7d7d7;
+  gap: 0;
 }
 
-.menu-pagina a {
-  padding: 14px 16px;
-
+.pages a {
+  position: relative;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #19647e;
   text-decoration: none;
-
-  color: var(--azul-escuro);
-
-  font-weight: bold;
-  font-size: 0.9rem;
-
-  transition: 0.2s ease;
+  padding: 16px 28px;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.menu-pagina a:hover {
-  background: #dddddd;
+.pages a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, #19647e 0%, #27a3cc 100%);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.pages a:hover {
+  transform: scale(1.05);
+}
+
+.pages a:hover::after {
+  transform: scaleX(1);
 }
 
 main {
@@ -315,6 +335,10 @@ main h2 {
   margin: 40px 0 14px;
 
   color: var(--azul-escuro);
+}
+
+main section {
+  scroll-margin-top: 60px;
 }
 
 table {
