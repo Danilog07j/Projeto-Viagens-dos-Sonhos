@@ -216,6 +216,10 @@ header {
   margin-right: 80px;
 }
 
+.logo:hover {
+  transform: scale(1.05);
+}
+
 .lista {
   display: flex;
   align-items: center;
@@ -282,22 +286,74 @@ header {
 .btn-fill:hover {
   transform: scale(1.03);
 }
+
+.pages-bar {
+  margin-top: 0;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  top: 0;
+}
+
+
+.pages a {
+  position: relative;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #19647e;
+  text-decoration: none;
+  padding: 16px 28px;
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.pages a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, #19647e 0%, #27a3cc 100%);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.pages a:hover {
+  transform: scale(1.05);
+}
+
+.pages a:hover::after {
+  transform: scaleX(1);
+}
+
 .porta {
-
-background:#eee5e5;
-min-height: 100%;
-color: rgb(0, 0, 0);
-
+  background: #eee5e5;
+  min-height: 100%;
+  color: rgb(0, 0, 0);
 }
-h1{
- font-family: initial;
- padding: 60px;
- font-size: 40px;
+h1 {
+  font-family: initial;
+  padding: 60px;
+  font-size: 40px;
 }
-h2{
- font-family: initial;
- padding: 50px;
- font-size: 30px;
+h2 {
+  font-family: initial;
+  padding: 50px;
+  font-size: 30px;
 }
 .container {
   display: grid;
@@ -310,7 +366,7 @@ h2{
   background: white;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
 }
 
@@ -334,7 +390,7 @@ h2{
 
 .nota {
   display: inline-block;
-  background: #2ecc71;
+  background: var(--gold);
   color: white;
   padding: 5px 8px;
   border-radius: 6px;
@@ -345,4 +401,17 @@ h2{
 .preco {
   font-weight: bold;
   color: #333;
+}
+
+.footer {
+  background-color: var(--azul-escuro);
+  margin-top: 0;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 32px;
 }
