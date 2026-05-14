@@ -329,24 +329,47 @@ header { padding: 16px; }
     padding: 80px 0;
 }
 
-.divider{
+.divider {
     width: 100px;
     height: 4px;
     border-radius: 99px;
     background: var(--branco-fundo);
     margin: 20px auto 40px;
 }
- 
-.photo-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 15px;
-}
- 
-.photo-grid img {
+
+.carousel-wrapper {
+    overflow: hidden;
     width: 100%;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 15px;
+    width: max-content;
+    animation: scroll-left 45s linear infinite;
+}
+
+.carousel-track img {
+    width: 420px;
+    height: 280px;
+    object-fit: cover;
     border-radius: 10px;
     border: 2px solid #28AFB0;
+    flex-shrink: 0;
+}
+
+.carousel-track img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
  
 .booking {
