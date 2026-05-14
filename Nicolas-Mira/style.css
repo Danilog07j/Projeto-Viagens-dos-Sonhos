@@ -162,10 +162,6 @@ a {
 }
 
 .logo {
-  font-family: var(--font-head);
-  font-size: 26px;
-  letter-spacing: 3px;
-  color: #fff;
   margin: 0;
   margin-right: 80px;
 }
