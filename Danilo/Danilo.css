@@ -30,6 +30,10 @@ header {
   padding: 16px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .capa {
   position: relative;
   height: 661px;
@@ -92,10 +96,6 @@ header {
   animation-delay: 28s;
 }
 
-a {
-  text-decoration: none;
-}
-
 @keyframes troca {
   0% {
     opacity: 0;
@@ -120,10 +120,6 @@ a {
     opacity: 0;
     transform: scale(1.08);
   }
-}
-
-header {
-  padding: 16px;
 }
 
 .capa-texto {
@@ -166,16 +162,6 @@ header {
   animation-delay: 0.4s;
 }
 
-.capa-texto p {
-  font-size: 1.2rem;
-  max-width: 700px;
-  line-height: 1.6;
-
-  opacity: 0;
-  animation: aparecer 1s ease forwards;
-  animation-delay: 0.8s;
-}
-
 @keyframes aparecer {
   from {
     opacity: 0;
@@ -216,10 +202,6 @@ header {
 }
 
 .logo {
-  font-family: var(--font-head);
-  font-size: 26px;
-  letter-spacing: 3px;
-  color: #fff;
   margin: 0;
   margin-right: 80px;
 }
@@ -452,7 +434,6 @@ header {
 
 .footer {
   background-color: var(--azul-escuro);
-  margin-top: 0;
 }
 
 .footer-inner {
