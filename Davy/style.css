@@ -205,16 +205,25 @@ header {
 }
 
 .a {
-  display: inline-block;
   transition: color 0.2s ease;
   cursor: pointer;
+  color: white;
+  text-decoration: none;
 }
+
+.a:visited {
+  color: white;
+  text-decoration: none;
+}
+
 
 .a:hover {
   color: #a8d8e8;
 }
 
 .a-selected {
+  color: white;
+  text-decoration: none;
   display: inline-block;
   transition: color 0.2s ease;
   cursor: pointer;
@@ -224,6 +233,11 @@ header {
 
 .a-selected:hover {
   color: #a8d8e8;
+}
+
+.a-selected:visited {
+  color: white;
+  text-decoration: none;
 }
 
 .nav-right {

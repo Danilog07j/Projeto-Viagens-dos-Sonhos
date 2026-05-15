@@ -81,10 +81,17 @@ header {
 }
 
 .a {
-  display: inline-block;
   transition: color 0.2s ease;
   cursor: pointer;
+  color: white;
+  text-decoration: none;
 }
+
+.a:visited {
+  color: white;
+  text-decoration: none;
+}
+
 
 .a:hover {
   color: #a8d8e8;
