@@ -11,7 +11,7 @@ O objetivo principal foi praticar desenvolvimento front-end, organização de co
 ## Projeto Online
 
 Acesse aqui:  
-https://Danilog07.github.io/Projeto-Viagens-dos-Sonhos/
+https://Danilog07j.github.io/Projeto-Viagens-dos-Sonhos/
 
 ---
 
