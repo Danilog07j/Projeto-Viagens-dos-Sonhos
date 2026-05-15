@@ -36,8 +36,7 @@ https://Danilog07.github.io/Projeto-Viagens-dos-Sonhos/
 ## Preview
 
 ### Página inicial
-<img width="1920" height="1080" alt="Captura de tela 2026-05-14 190938" src="https://github.com/user-attachments/assets/bd61ef27-26a0-4671-af59-79f8b8f51db6" />
-<img width="1920" height="1080" alt="Captura de tela 2026-05-14 191008" src="https://github.com/user-attachments/assets/63bfab97-3d7e-4e0a-ba32-af0caed56c5a" />
+<img width="1911" height="1072" alt="Captura de tela 2026-05-14 190938" src="https://github.com/user-attachments/assets/4f01ca8a-26cf-4f1e-8a9d-b208d7b3433c" />
 
 ### Exemplo de página de Destinos
 <img width="1906" height="1067" alt="image" src="https://github.com/user-attachments/assets/890e4044-a758-4627-a4f2-1d68bf9e5120" />
@@ -51,3 +50,11 @@ https://Danilog07.github.io/Projeto-Viagens-dos-Sonhos/
 ### Exemplo de página de Hotéis
 <img width="1910" height="1069" alt="image" src="https://github.com/user-attachments/assets/c58b4cb6-cfa4-40f0-ae15-7494404a5f47" />
 
+## Projeto feito por:
+
+- Alexandre Henrique Pereira de Araujo
+- Davy Santos Gama
+- Danilo Gonçalves da Silva
+- Guilherme Miranda Murillo
+- Gustavo Oliveira Almeida
+- Nicolas da Silva Mira
