@@ -1,14 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Arvo:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;700&display=swap");
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+}
 
 :root {
   --branco-fundo: #eee5e5;
   --azul-banana: #19647e;
   --azul-escuro: #0d0221;
   --font-main: "Roboto", sans-serif;
+  --font-head: "Playfair Display", serif;
 }
 
 body {
@@ -103,7 +110,9 @@ body {
   padding: 50px 20px;
 }
 
-header { padding: 16px; }
+header {
+  padding: 16px;
+}
 
 .topo-inteiro {
   display: flex;
@@ -240,15 +249,19 @@ header { padding: 16px; }
 }
 
 .hero-text h1 {
-  font-size: 3.5rem;
-  color: #28AFB0;
+  font-family: var(--font-head);
+  font-size: 80px;
+  margin-bottom: 14px;
+  opacity: 1;
+  animation: aparecer 1s ease forwards;
+  animation-delay: 0.4s;
 }
 
 .section-title {
   text-align: center;
   margin-bottom: 40px;
-  font-size: 2.2rem;
-  color: #19647E;
+  font-size: 35px;
+  color: #19647e;
 }
 
 .pricing-grid {
@@ -279,40 +292,40 @@ header { padding: 16px; }
 
 .price-card h3 {
   margin: 15px 0;
-  color: #0D0221;
+  color: #0d0221;
 }
 
 .price-card.featured {
-  border: 3px solid #B0901C;
+  border: 3px solid #b0901c;
   position: relative;
 }
 
 .badge {
-  background: #B0901C;
+  background: #b0901c;
   color: white;
   position: absolute;
   top: 10px;
   right: 10px;
   padding: 5px 12px;
   border-radius: 20px;
-  font-size: 0.8rem;
+  font-size: 13px;
 }
 
 .price {
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: bold;
-  color: #28AFB0;
+  color: #28afb0;
   margin-bottom: 15px;
 }
 
 .price span {
-  font-size: 0.9rem;
+  font-size: 14px;
   color: #666;
 }
 
 .btn-buy {
   display: inline-block;
-  background: #19647E;
+  background: #19647e;
   color: white;
   padding: 12px 25px;
   text-decoration: none;
@@ -350,7 +363,7 @@ header { padding: 16px; }
   height: 280px;
   object-fit: cover;
   border-radius: 10px;
-  border: 2px solid #28AFB0;
+  border: 2px solid #28afb0;
   flex-shrink: 0;
 }
 
@@ -370,7 +383,7 @@ header { padding: 16px; }
 
 .booking {
   padding: 80px 0;
-  background: #0D0221;
+  background: #0d0221;
 }
 
 .booking-box {
@@ -383,7 +396,7 @@ header { padding: 16px; }
 
 .booking-box h2 {
   margin-bottom: 20px;
-  color: #0D0221;
+  color: #0d0221;
 }
 
 form {
@@ -392,14 +405,15 @@ form {
   gap: 15px;
 }
 
-input, select {
+input,
+select {
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
 .button {
-  background: #28AFB0;
+  background: #28afb0;
   color: white;
   padding: 12px;
   border: none;

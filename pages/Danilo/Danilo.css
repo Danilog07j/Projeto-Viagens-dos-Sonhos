@@ -143,7 +143,7 @@ a {
 }
 
 .capa-texto span {
-  font-size: 1rem;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 4px;
   margin-bottom: 12px;
@@ -154,7 +154,7 @@ a {
 
 .capa-texto h1 {
   font-family: var(--font-head);
-  font-size: 5rem;
+  font-size: 80px;
   margin-bottom: 14px;
 
   opacity: 0;

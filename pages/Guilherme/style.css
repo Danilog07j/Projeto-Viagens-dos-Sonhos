@@ -92,7 +92,6 @@ header {
   text-decoration: none;
 }
 
-
 .a:hover {
   color: #a8d8e8;
 }
@@ -247,14 +246,14 @@ header {
 }
 
 .capa-texto span {
-  font-size: 0.9rem;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
 
 .capa-texto h1 {
   font-family: var(--font-head);
-  font-size: 4rem;
+  font-size: 64px;
   margin-top: 6px;
 }
 
@@ -281,7 +280,9 @@ header {
   color: #19647e;
   text-decoration: none;
   padding: 16px 28px;
-  transition: color 0.3s ease, transform 0.3s ease;
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
 }
 
 .pages a::after {
@@ -319,7 +320,7 @@ main p {
 
 main h2 {
   font-family: var(--font-head);
-  font-size: 2rem;
+  font-size: 32px;
   margin: 40px 0 14px;
   color: var(--azul-escuro);
 }
