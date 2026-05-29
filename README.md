@@ -52,7 +52,7 @@ https://Danilog07j.github.io/Projeto-Viagens-dos-Sonhos/
 
 ## Projeto feito por:
 
-- [Alexandre Henrique Pereira de Araujo](github.com/henriqtw)
+- [Alexandre Henrique Pereira de Araujo](https://github.com/henriqtw)
 - [Davy Santos Gama](https://github.com/Davy150)
 - [Danilo Gonçalves da Silva](https://github.com/Danilog07j)
 - [Guilherme Miranda Murillo](https://github.com/guilherm-xd)
