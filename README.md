@@ -52,9 +52,9 @@ https://Danilog07j.github.io/Projeto-Viagens-dos-Sonhos/
 
 ## Projeto feito por:
 
-- Alexandre Henrique Pereira de Araujo
-- Davy Santos Gama
-- Danilo Gonçalves da Silva
-- Guilherme Miranda Murillo
-- Gustavo Oliveira Almeida
-- Nicolas da Silva Mira
+- [Alexandre Henrique Pereira de Araujo](github.com/henriqtw)
+- [Davy Santos Gama](https://github.com/Davy150)
+- [Danilo Gonçalves da Silva](https://github.com/Danilog07j)
+- [Guilherme Miranda Murillo](https://github.com/guilherm-xd)
+- [Gustavo Oliveira Almeida](https://github.com/Gustavo-0093)
+- [Nicolas da Silva Mira](https://github.com/devMiraPy)
