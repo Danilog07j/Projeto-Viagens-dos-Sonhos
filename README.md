@@ -52,9 +52,11 @@ https://Danilog07j.github.io/Projeto-Viagens-dos-Sonhos/
 
 ## Projeto feito por:
 
-- [Alexandre Henrique Pereira de Araujo](https://github.com/henriqtw)
-- [Davy Santos Gama](https://github.com/Davy150)
-- [Danilo Gonçalves da Silva](https://github.com/Danilog07j)
-- [Guilherme Miranda Murillo](https://github.com/guilherm-xd)
-- [Gustavo Oliveira Almeida](https://github.com/Gustavo-0093)
-- [Nicolas da Silva Mira](https://github.com/devMiraPy)
+
+- <img src="https://github.com/henriqtw.png?size=24" width="24" align="absmiddle"> [Alexandre Henrique Pereira de Araujo](https://github.com/henriqtw/)
+- <img src="https://github.com/Danilog07j.png?size=24" width="24" align="absmiddle"> [Danilo Gonçalves da Silva](https://github.com/Danilog07j)
+- <img src="https://github.com/Davy150.png?size=24" width="24" align="absmiddle"> [Davy Santos Gama](https://github.com/Davy150)
+- <img src="https://github.com/guilherm-xd.png?size=24" width="24" align="absmiddle"> [Guilherme Miranda Murillo](https://github.com/guilherm-xd)
+- <img src="https://github.com/Gustavo-0093.png?size=24" width="24" align="absmiddle"> [Gustavo Oliveira Almeida](https://github.com/Gustavo-0093)
+- <img src="https://github.com/devMiraPy.png?size=24" width="24" align="absmiddle"> [Nicolas da Silva Mira](https://github.com/devMiraPy)
+
